@@ -5,25 +5,9 @@ $SubTextLightColor:#c8b8ac;
 $DiferentColor:#920003;
 $DiferentLightColor:#e9b4a3;
 
-/*
-$TextColor:#1e110b;
-$SubTextColor:#6a371c;
-$LightColor:#cc925d;
-$DiferentColor:#791f06;
-$DiferentLightColor:#a74c2a;
-
-*/
-
-.homeCards {
-display: flex; 
-  flex-direction: row; //| row-reverse | column | column-reverse;
-
-justify-content:center;
-align-items:center;
-}
 html,body{
 	margin:0%;
-	padding:0;
+	padding:0%;
 	height:100%;
 	width:100%;	
 }
@@ -47,23 +31,17 @@ html,body{
 	font-family: indian;
 	font-weight: bold;
 	font-style: italic;	
+  font-size: 50px;
 	color:white;
 }
 
-.navDesign{
+.navbarDesign{
+   background-color: $DiferentColor;
+}
 
-
-	
-height:10%;
-
-top: 0;
-width: 100%;
-	
-	 //display:block;
-   	//position: fixed;
-
- background-color: $DiferentColor;
-  
+section{
+  padding-top: 120px;
+  padding-bottom: 30px;
 }
 
 aside{
@@ -76,11 +54,16 @@ aside{
 
 footer{
 background-color:$DiferentColor;
-whidth:100%;
-height:30%;
+width:100%;
+height:100px;
 display:block;
+color: white;
+padding-top: 20px;
 
 	
+}
+.row{
+  margin-top: 10px;
 }
 
 #head {
@@ -93,8 +76,46 @@ display:block;
 .TargetDiv{
 display: flex;
 flex-direction: row; //| row-reverse | row | column-reverse;
-margin-top:5%;
+margin-top:5%;  
+}
 
+.btn-Bodocitta{
+
+ background-color: $DiferentColor;
+ border-color:  $DiferentColor;
+ color:white;
+    &:hover{
+        background-color: $DiferentLightColor;
+         border-color:  $DiferentLightColor;
+         color:white;
+    }
+  
+}
+.dropdown-item{
+  &:focus{
+    background-color: $DiferentColor;
+  }
+  &:hover{
+    background-color: $DiferentLightColor;
+  }
   
   
+}
+
+img {
+    width: 100%; // how much you want
+   max-height: 180px;
+ 
+}
+.column{
+  padding: 5px;
+}
+.nav-link{
+  color: white;
+  &:hover{
+     color: $SubTextLightColor;
+  }
+}
+.navbar-toggler{
+  color: white;
 }

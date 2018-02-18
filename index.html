@@ -1,94 +1,136 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="es">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
 	<script src="js/java.js"></script>
+
 	<title>Bodichittamani</title>
 </head>
+
 <body>
 
-	<nav class="navDesign"  ><h1 id="logo"> Bodichittamani<h1>
+
+	<nav class="navbar fixed-top  navbarDesign  navbar-expand-lg">
+		<a id="logo" class="navbar-brand" href="#">Bodichittamani</a>
+
+		<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		 aria-expanded="false" aria-label="Toggle navigation">
+		 <i class="fas fa-bars fa-lg "></i>
+		
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Inicio</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					 aria-expanded="false">
+						Categorías
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Alimentacion.html">Alimentación</a>
+						<a class="dropdown-item" href="Cosmetica.html">Cosmética</a>
+						<a class="dropdown-item" href="Ayurveda.html">Ayurveda</a>
+						<a class="dropdown-item" href="AloeVera.html">Aloe vera</a>
+						<a class="dropdown-item" href="AguadeMar.html">Agua de mar</a>
+						<a class="dropdown-item" href="Cursos.html">Cursos, artículos y videos</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="About.html">Sobre mi </a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-		 
 
-
-
-	<section>
-		<div class = "homeCards">
-
-					<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Alimentacion.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+	<section class="container">
+		<div class="row">
+			<div class="column col-md-4">
+				<div class="card ">
+					<img class="card-img-top img-responsive" src="img/Alimentacion.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Alimentación</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-Bodocitta">leer más</a>
+					</div>
 				</div>
+			</div>
 
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Cosmetica2.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+			<div class="column col-md-4">
+				<div class="card ">
+					<img class="card-img-top" src="img/Cosmetica2.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Cosmetica</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn  btn-Bodocitta">leer más</a>
+					</div>
 				</div>
-
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Aguademar.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+			</div>
+			<div class="column col-md-4">
+				<div class="card ">
+					<img class="card-img-top" src="img/Aguademar.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Agua de mar</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn  btn-Bodocitta">leer más</a>
+					</div>
+				</div>
+			</div>
 		</div>
-	
+		<div class="row">
+			<div class="column col-md-4">
+				<div class="card ">
+					<img class="card-img-top" src="img/Aloe1.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Aloe vera</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-Bodocitta">leer más</a>
+					</div>
+				</div>
+			</div>
 
+			<div class="column col-md-4">
+				<div class="card ">
+					<img class="card-img-top" src="img/Ayurveda2.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Ayurveda</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="Ayurveda.html" class="btn  btn-Bodocitta">leer más</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="column col-md-4 ">
+				<div class="card " >
+				  <img class="card-img-top " src="img/Ayurveda2.jpg " alt="Card image cap ">
+				  <div class="card-body ">
+				    <h5 class="card-title ">Cursos, artículos y videos</h5>
+				    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="# " class="btn btn-Bodocitta ">leer más</a>
+				  </div>
+				</div>
+			</div>	
 		</div>
-				<div class = "homeCards">
-
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Aloe1.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
-				</div>
-
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Ayurveda2.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Ayurveda</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="ayurveda.html" class="btn btn-primary">Go somewhere</a>
-				  </div>
-				</div>
-
-
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/Ayurveda2.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
-				</div>
-
-		</div>
-		
-
 </section>
-<footer>
-		
-
+<footer class="text-center ">	
+	Copyright 2018 <i class="fas fa-copyright "></i> - Gisela Ruzafa Amado
+	
+	
 </footer>
-
-
 
 </body>
 </html>
