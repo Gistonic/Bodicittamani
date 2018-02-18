@@ -1,0 +1,100 @@
+
+$TextColor:#3b0002;
+$SubTextColor:#8d7062;
+$SubTextLightColor:#c8b8ac;
+$DiferentColor:#920003;
+$DiferentLightColor:#e9b4a3;
+
+/*
+$TextColor:#1e110b;
+$SubTextColor:#6a371c;
+$LightColor:#cc925d;
+$DiferentColor:#791f06;
+$DiferentLightColor:#a74c2a;
+
+*/
+
+.homeCards {
+display: flex; 
+  flex-direction: row; //| row-reverse | column | column-reverse;
+
+justify-content:center;
+align-items:center;
+}
+html,body{
+	margin:0%;
+	padding:0;
+	height:100%;
+	width:100%;	
+}
+
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Regular.ttf");
+}
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Italic.ttf");
+    font-style: italic;
+}
+
+#logo{
+	font-family: indian;
+	font-weight: bold;
+	font-style: italic;	
+	color:white;
+}
+
+.navDesign{
+
+
+	
+height:10%;
+
+top: 0;
+width: 100%;
+	
+	 //display:block;
+   	//position: fixed;
+
+ background-color: $DiferentColor;
+  
+}
+
+aside{
+  flex-direction: row; //| row-reverse | column | column-reverse;
+  display: flex;
+  margin:1%;
+	
+}
+
+
+footer{
+background-color:$DiferentColor;
+whidth:100%;
+height:30%;
+display:block;
+
+	
+}
+
+#head {
+    background-image:url("img/spice.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+.TargetDiv{
+display: flex;
+flex-direction: row; //| row-reverse | row | column-reverse;
+margin-top:5%;
+
+  
+  
+}
